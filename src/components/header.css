@@ -1,0 +1,38 @@
+header {
+	padding: 10px;
+}
+
+.city-title {
+}
+
+.info-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 100%;
+}
+
+.temperature-container {
+	display: flex;
+	align-items: baseline;
+	gap: 5px;
+}
+
+.temperature {
+}
+
+.weather {
+}
+/* ---------------------------- */
+.detalis-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.detailed-temperature {
+}
+
+.air-quality {
+}
