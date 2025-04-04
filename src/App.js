@@ -1,4 +1,6 @@
+import "./assets/font/ClashDisplay/clash-display.css";
 import "./assets/reset.css";
+
 import "./App.css";
 import Header from "./components/Header";
 import Main from "./components/Main";

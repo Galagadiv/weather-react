@@ -1,51 +1,107 @@
 main {
 	display: flex;
+	flex-direction: column;
 	width: 100vw;
 	padding: 10px;
 	gap: 10px;
 }
 
+.hero {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 4px solid;
+	box-shadow: 4px 4px 1px;
+	padding: 52px 35px;
+}
+
 .weather-details {
 	display: flex;
 	flex-direction: column;
+	max-width: 470px;
 	margin-top: auto;
 	margin-bottom: auto;
 }
 
 .container-name {
+	color: #9333ea;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.2em;
+	margin-bottom: 5px;
 }
 
-.details-list {
-	display: grid;
-	justify-content: center;
+.current-temperature {
+	font-size: 120px;
+	font-weight: 900;
+	line-height: 1.43em;
+}
+
+.weather-description {
+	font-size: 55px;
+	font-weight: 400;
+	line-height: 1.2em;
+	margin-bottom: 30px;
+}
+
+.turn-into-F {
+	background-color: #ffdc58;
+	border: 4px solid;
+	box-shadow: 4px 4px 1px;
+	font-size: 37px;
+	font-weight: 400;
+	line-height: 1.2em;
+	text-align: center;
+
+	max-width: 235px;
+	max-height: 60px;
+	width: 100%;
+	height: 100%;
+
+	margin-bottom: 60px;
+}
+
+.weather-details-list {
+	display: flex;
 	align-items: center;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, auto);
-	gap: 10px;
+	gap: 165px;
 	width: 100%;
 	height: 100%;
 }
 
-.details-item {
+.weather-details-item {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-	background-color: rgba(238, 238, 238, 0.952);
+	align-items: flex-start;
+	gap: 10px;
 
-	border: 0.5px solid;
-	border-color: rgb(199, 199, 199);
-	border-radius: 3px;
-	width: 10dvw;
-	height: 10dvw;
+	div {
+		display: flex;
+		gap: 2px;
+	}
 }
 
-.forecast {
+.detail-title {
+	display: flex;
+	flex-wrap: nowrap;
+	font-size: 29px;
+	font-weight: 600;
+	line-height: 1em;
+}
+
+.detail-data {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1em;
+}
+/* .forecast {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	overflow: hidden;
 	width: 60dvw;
+	height: 40dvh;
 }
 
 .container-name {
@@ -57,6 +113,7 @@ main {
 	scrollbar-width: none;
 	overflow-x: scroll;
 	gap: 10px;
+	height: 100%;
 }
 
 .forcast-list-item {
@@ -71,5 +128,5 @@ main {
 	border-radius: 3px;
 	padding: 10px;
 	width: 20dvw;
-	height: 15dvh;
-}
+	height: 100%;
+} */
