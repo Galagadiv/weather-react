@@ -3,7 +3,7 @@ import "./assets/reset.css";
 
 import "./App.css";
 import Header from "./components/Header";
-import Main from "./components/Main";
+import Main from "./components/Main/Main";
 import React, {useEffect, useState, createContext} from "react";
 
 export const DataContext = createContext();

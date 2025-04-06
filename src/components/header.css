@@ -1,5 +1,8 @@
 header {
 	padding: 10px;
+	section {
+		box-shadow: 4px 4px 1px;
+	}
 }
 
 .city-title {
